@@ -43,4 +43,6 @@
 		<delete dir="${build.dir}" />
 	</target>
 
+	<target name="test" depends="clean, bundle" />
+
 </project>

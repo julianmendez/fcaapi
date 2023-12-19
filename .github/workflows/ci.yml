@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         java:
-        - 8u391
+        - 8
     steps:
     - name: Check out
       uses: actions/checkout@v4
